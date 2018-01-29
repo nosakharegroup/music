@@ -1,11 +1,11 @@
 {
   "name": "soundcloud-redux",
   "version": "1.0.0",
-  "description": "SoundCloud API client with React, Redux, and Redux Saga",
-  "homepage": "https://soundcloud-redux.herokuapp.com",
+  "description": "",
+  "homepage": "https://music.nosakhare.us",
   "repository": {
     "type": "git",
-    "url": "https://github.com/r-park/soundcloud-redux.git"
+    "url": "https://github.com/nosakharegroup/music.git"
   },
   "author": {
     "name": "Richard Park",
@@ -22,7 +22,6 @@
     "build:js": "cross-env NODE_PATH=. react-scripts build",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build",
     "server": "cross-env NODE_ENV=development nodemon -w 'server/**/*.*' server/main.js",
     "start": "run-p start:css start:js",
     "start:css": "npm run build:css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
