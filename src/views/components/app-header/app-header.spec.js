@@ -39,12 +39,6 @@ describe('views', () => {
       expect(buttons.at(0).prop('onClick')).toBe(toggleSearch);
     });
 
-    it('should have a link to the github repo', () => {
-      let link = getWrapper().find('.link--github');
-      expect(link.length).toBe(1);
-      expect(link.prop('href')).toBe('https://github.com/r-park/soundcloud-redux');
-    });
-
     it('should have a search bar', () => {
       let searchBar = getWrapper().find('SearchBar');
       expect(searchBar.length).toBe(1);
