@@ -25,6 +25,12 @@ function AppHeader({handleSearch, search, toggleSearch}) {
                 onClick={toggleSearch}
               />
             </li>
+            <li>
+               <IconButton
+                 icon="soundcloud"
+                 label="SoundCloud"
+               />
+            </li>
           </ul>
         </div>
       </div>
