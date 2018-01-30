@@ -1,5 +1,5 @@
 {
-  "name": "soundcloud-redux",
+  "name": "xtunes-client",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://music.nosakhare.us",
@@ -8,8 +8,8 @@
     "url": "https://github.com/nosakharegroup/music.git"
   },
   "author": {
-    "name": "Richard Park",
-    "email": "objectiv@gmail.com"
+    "name": "Emmanuel Nosakhare",
+    "email": "nonreactiv@gmail.com"
   },
   "license": "MIT",
   "private": true,
